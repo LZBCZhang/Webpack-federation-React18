@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths" : {
+      "components/*": ["components/*"],
+      "features/*": ["features/*"],
+      "routing/*": ["routing/*"],
+      "static/*": ["static/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "jsx": "react",
+    "allowJs": true,
+  },
+  "include": ["src/**/*", "src/static/global.d.ts"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "configuration"
+  ],
+
+}
